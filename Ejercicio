@@ -1,0 +1,35 @@
+Console.WriteLine("Introduce tu nombre");
+string nombre = Console.ReadLine();
+
+Console.WriteLine("Introduce tu apellido");
+string apellido = Console.ReadLine();
+
+
+Console.WriteLine("Introduce tu edad");
+int edad =int.Parse(Console.ReadLine());
+
+Console.WriteLine("Sabes programar?");
+bool pregProgram = bool.Parse(Console.ReadLine());
+
+Console.Write($"Hola, {nombre}. Tu apellido es {apellido}. Tienes {edad} años.");
+
+
+//Coche
+int cantPuertas = 3;
+int cantRuedas = 4;
+
+string marca = "Peugeot";
+bool itvVigente = true;
+
+//Mesa
+float peso = 4.5f;
+
+float largo = 1.20f;
+
+string material = "Roble";
+
+string color = "Marron";
+
+Console.Write($"Tienes un coche que tiene {cantPuertas} puertas, tiene {cantRuedas} ruedas, es de la marca {marca}.");
+
+Console.Write($"Tu mesa pesa {peso} kilos, tiene {largo} de largo , es de {material} y es de color {color}");
